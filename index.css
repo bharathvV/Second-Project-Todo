@@ -1,0 +1,100 @@
+body {
+  /* border:1px solid black; */
+  width: 1000px;
+  height: 550px;
+  position: absolute;
+  top: 130px;
+  left: 250px;
+}
+.task {
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.add {
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.list {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.list1 {
+  font-weight: 50;
+  opacity: 0.6;
+}
+.list2 {
+  font-size: 40px;
+  font-weight: 50;
+  font-family: sans-serif;
+}
+
+.box {
+  display: flex;
+}
+.box1 {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+.box2 {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+.box3 {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+.trip1 {
+  color: rgb(223, 115, 133);
+  font-size: 30px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+hr {
+  position: absolute;
+  width: 200px;
+  left: 50px;
+  top: 60px;
+}
+
+.trip2 {
+  color: red;
+  font-size: 30px;
+  text-decoration: line-through;
+  padding: 20px;
+}
+.trip3 {
+  font-size: 25px;
+}
+.ancher {
+  text-decoration: none;
+}
